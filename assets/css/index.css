@@ -1,9 +1,47 @@
 #header {
   background: var(--linear);
+  height: 250px;
+  padding: 0 20px;
+}
+#header > nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0 0 0;
 }
 #header > nav > ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  max-width: 100%;
+}
+#header > nav > div:nth-child(2) {
+  max-width: 100%;
+  width: 900px;
+  margin-top: 73px;
+}
+#header > nav > div:nth-child(2) > input {
+  max-width: 100%;
+  width: 900px;
+  height: 65px;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#header > nav > div:nth-child(2) > input::placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+  padding: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+#header > nav > div:nth-child(2) #input {
+  background: url(../img/ant-design_search-outlined.svg) no-repeat;
+  background-position: 10px 20px;
 }
 
 #main #one > div:nth-child(1) {
@@ -13,17 +51,19 @@
   align-items: center;
   flex-wrap: wrap;
   margin-top: 100px;
+  padding: 0 20px;
 }
 #main #one > div:nth-child(1) > div:nth-child(1n+1) {
+  max-width: 100%;
   width: 900px;
-  height: 195px;
+  height: auto;
   left: 270px;
   top: 350px;
   background: #ffffff;
   box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
   border-radius: 5px;
   padding: 24px;
-  margin: 26px;
+  margin: 0 0 26px 0;
 }
 #main #one > div:nth-child(1) > div:nth-child(1n+1) > div:nth-child(1) {
   display: flex;
@@ -32,9 +72,7 @@
   margin-bottom: 22px;
 }
 #main #one > div:nth-child(1) > div:nth-child(1n+1) > div:nth-child(1) p {
-  font-family: "Lexend Deca";
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   /* identical to box height */
@@ -45,20 +83,15 @@
   flex-direction: column;
 }
 #main #one > div:nth-child(1) > div:nth-child(1n+1) > div:nth-child(2) h1 {
-  font-family: "Lexend Deca";
   font-style: normal;
-  font-weight: 400;
   font-size: 26px;
   line-height: 32px;
   color: #1a202c;
 }
 #main #one > div:nth-child(1) > div:nth-child(1n+1) > div:nth-child(2) p {
-  font-family: "Lexend Deca";
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  /* or 178% */
   color: #717171;
   margin-top: 8px;
 }

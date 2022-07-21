@@ -19,6 +19,22 @@ html {
   background-color: #f3f5f7;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+p,
+a,
+span {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+}
+
 ul,
 li,
 a {
@@ -28,6 +44,12 @@ a {
   line-height: 30px;
   font-weight: 400;
   color: var(--white);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
 }
 
 /*# sourceMappingURL=global.css.map */
